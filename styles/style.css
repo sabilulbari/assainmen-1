@@ -63,3 +63,64 @@ body {
     background-color: #259c57;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
+
+#hero{
+    background: url(../assets/hero-bg.png) no-repeat ;
+
+}
+
+.early{
+    display: flex;
+    justify-content: center;
+    padding-top: 115px;
+}
+.early-button {
+    /* background-color: #e2d0f3; */
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 8px 12px;
+    border-radius: 1000px;
+    margin-bottom: 16px;
+    justify-content: center;
+    border: none;
+}
+.early-button h6 {
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.hero-content h1 {
+    color: #FFFFFF;
+    font-size: 72px; ;
+    font-weight: bold;
+    line-height: 84px;
+    text-align: center;
+    padding: 16px 0;
+}
+.h1-g {
+    color: #30B868;
+}
+
+.hero-content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 32px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+    padding-bottom: 263px ;
+}
+
+.trns{
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+}
