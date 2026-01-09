@@ -31,6 +31,7 @@ body {
 }
 #nav-bar img {
     max-width: 139px;
+    cursor: pointer;
 }
 
 .nav-heading ul {
@@ -47,7 +48,7 @@ body {
 }
 
 .nav-heading ul li a:hover {
-    color: #FF5733;
+    color: #2ba55e;
 }
 
 .btn {
@@ -80,6 +81,9 @@ body {
 }
 .early-button {
     /* background-color: #e2d0f3; */
+    color: #2aa75e;
+    font-size: 16px;
+    font-weight: 500;
     display: flex;
     align-items: center;
     gap: 4px;
@@ -87,7 +91,15 @@ body {
     border-radius: 1000px;
     margin-bottom: 16px;
     justify-content: center;
-    border: none;
+    border: #FAFAFA 2px solid;
+
+}
+
+.early-button:hover {
+    border: #2ba55e8c 2px solid;
+    color: #2ba55e;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 .early-button img {
@@ -97,9 +109,7 @@ body {
     justify-content: center;
 }
 .early-button h6 {
-    color: #30B868;
-    font-size: 16px;
-    font-weight: 500;
+    
 }
 
 .hero-content h1 {
@@ -376,6 +386,14 @@ body {
     align-items: center; */
 }
 
+.footer-circle:hover{
+    box-shadow: 0 6px 50px 0 #01ff40be;
+    
+}
+
+.social-link ul li a:hover{
+    color: #30B868;
+}
 /* .social-link ul li a i{
     display: flex;
     justify-content: center;
