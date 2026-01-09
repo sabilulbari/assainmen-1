@@ -368,3 +368,19 @@ body {
     height: 10px;
     margin: auto;
 } */
+
+.footer-buttom{
+    width: 85%;
+    margin: auto;
+    /* color: #FAFAFA; */
+}
+
+.footer-buttom h6{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    /* padding-bottom: 40px; */
+    color: #FAFAFA;
+    padding: 30px 0;
+    border-top: 1px solid #ffffff25;
+}
